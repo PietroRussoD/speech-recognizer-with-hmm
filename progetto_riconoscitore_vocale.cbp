@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="progetto_riconoscitore_vocale" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/progetto_riconoscitore_vocale" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="./libfftw3-3.dll" />
+			<Add library="./libsndfile-1.dll" />
+		</Linker>
+		<Unit filename="analisi_caratteristiche.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="analisi_caratteristiche.h" />
+		<Unit filename="backward.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="baum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="forward.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hmm.h" />
+		<Unit filename="hmmrand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hmmutils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lbg_vq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lbg_vq.h" />
+		<Unit filename="lista.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lista.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matr_vett.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matr_vett.h" />
+		<Unit filename="nrutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="nrutil.h" />
+		<Unit filename="sequence.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="viterbi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

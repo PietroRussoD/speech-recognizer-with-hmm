@@ -1,0 +1,201 @@
+# depslib dependency file v1.0
+1301676650 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\matr_vett.c
+	"matr_vett.h"
+
+1301676650 c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\matr_vett.h
+	<stdio.h>
+
+1297767114 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\riconoscitore_vocale.c
+	"riconoscitore_vocale.h"
+
+1286721394 c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\sndfile.h
+	<stdio.h>
+	<sys/types.h>
+
+1247897352 c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\fftw3.h
+	<stdio.h>
+	<stddef.h>
+
+1297767114 c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\riconoscitore_vocale.h
+	"matr_vett.h"
+	<stdio.h>
+	<math.h>
+	"sndfile.h"
+	"fftw3.h"
+	<complex.h>
+
+1303031097 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\main.c
+	"analisi_caratteristiche.h"
+	"hmm.h"
+	"nrutil.h"
+
+1302105302 c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\analisi_caratteristiche.h
+	"matr_vett.h"
+	<math.h>
+	"sndfile.h"
+	"fftw3.h"
+	<complex.h>
+
+1301732501 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\analisi_caratteristiche.c
+	"analisi_caratteristiche.h"
+
+1305791305 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\lbg_vq.c
+	"lbg_vq.h"
+
+1301732721 c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\lbg_vq.h
+	"matr_vett.h"
+
+1302897945 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\lista.c
+	"lista.h"
+
+1302715900 c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\lista.h
+	"matr_vett.h"
+
+1301733849 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\backward.c
+	<stdio.h>
+	"hmm.h"
+
+1302715950 c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\hmm.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"lista.h"
+
+1301766304 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\baum.c
+	<stdio.h>
+	"nrutil.h"
+	"hmm.h"
+	<math.h>
+
+1298361561 c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\nrutil.h
+
+1302112156 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\forward.c
+	<stdio.h>
+	"hmm.h"
+
+1301733716 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\hmmrand.c
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+
+1302162773 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\hmmutils.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"nrutil.h"
+	"hmm.h"
+
+1302162280 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\nrutil.c
+	<malloc.h>
+	<stdio.h>
+
+1298320450 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\seq2hmm.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"nrutil.h"
+	"hmm.h"
+	<sys/types.h>
+	<unistd.h>
+
+1302163228 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\sequence.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"nrutil.h"
+	"hmm.h"
+
+1301766232 source:c:\users\pietro\desktop\bah\100\progetto_riconoscitore_vocale\viterbi.c
+	<math.h>
+	"hmm.h"
+	"nrutil.h"
+
+1301732501 source:d:\speechrecognizer\analisi_caratteristiche.c
+	"analisi_caratteristiche.h"
+
+1302105302 d:\speechrecognizer\analisi_caratteristiche.h
+	"matr_vett.h"
+	<math.h>
+	"sndfile.h"
+	"fftw3.h"
+	<complex.h>
+
+1301676650 d:\speechrecognizer\matr_vett.h
+	<stdio.h>
+
+1286721394 d:\speechrecognizer\sndfile.h
+	<stdio.h>
+	<sys/types.h>
+
+1247897352 d:\speechrecognizer\fftw3.h
+	<stdio.h>
+	<stddef.h>
+
+1301733849 source:d:\speechrecognizer\backward.c
+	<stdio.h>
+	"hmm.h"
+
+1302715950 d:\speechrecognizer\hmm.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"lista.h"
+
+1302715900 d:\speechrecognizer\lista.h
+	"matr_vett.h"
+
+1301766304 source:d:\speechrecognizer\baum.c
+	<stdio.h>
+	"nrutil.h"
+	"hmm.h"
+	<math.h>
+
+1298357961 d:\speechrecognizer\nrutil.h
+
+1302112156 source:d:\speechrecognizer\forward.c
+	<stdio.h>
+	"hmm.h"
+
+1301733716 source:d:\speechrecognizer\hmmrand.c
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+
+1302162773 source:d:\speechrecognizer\hmmutils.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"nrutil.h"
+	"hmm.h"
+
+1305791305 source:d:\speechrecognizer\lbg_vq.c
+	"lbg_vq.h"
+
+1301732721 d:\speechrecognizer\lbg_vq.h
+	"matr_vett.h"
+
+1302897945 source:d:\speechrecognizer\lista.c
+	"lista.h"
+
+1301676650 source:d:\speechrecognizer\matr_vett.c
+	"matr_vett.h"
+
+1302162280 source:d:\speechrecognizer\nrutil.c
+	<malloc.h>
+	<stdio.h>
+
+1302163228 source:d:\speechrecognizer\sequence.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"nrutil.h"
+	"hmm.h"
+
+1301766232 source:d:\speechrecognizer\viterbi.c
+	<math.h>
+	"hmm.h"
+	"nrutil.h"
+
